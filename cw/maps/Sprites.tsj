@@ -1,0 +1,15 @@
+{ "columns":101,
+ "image":"D:\/Downloads\/Sprites.png",
+ "imageheight":3581,
+ "imagewidth":3235,
+ "margin":0,
+ "name":"Sprites",
+ "spacing":0,
+ "tilecount":11211,
+ "tiledversion":"1.10.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "transparentcolor":"#ffffff",
+ "type":"tileset",
+ "version":"1.10"
+}

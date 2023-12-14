@@ -1,0 +1,15 @@
+{ "columns":3,
+ "image":"D:\/Downloads\/Green-Cap-Character-16x18.png",
+ "imageheight":72,
+ "imagewidth":48,
+ "margin":0,
+ "name":"Green-Cap-Character-16x18",
+ "spacing":0,
+ "tilecount":12,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "transparentcolor":"#ffffff",
+ "type":"tileset",
+ "version":"1.10"
+}

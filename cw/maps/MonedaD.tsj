@@ -1,0 +1,14 @@
+{ "columns":4,
+ "image":"MonedaD.png",
+ "imageheight":16,
+ "imagewidth":77,
+ "margin":0,
+ "name":"MonedaD",
+ "spacing":0,
+ "tilecount":4,
+ "tiledversion":"1.10.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "type":"tileset",
+ "version":"1.10"
+}

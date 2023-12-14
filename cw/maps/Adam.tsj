@@ -1,0 +1,15 @@
+{ "columns":4,
+ "image":"Adam.png",
+ "imageheight":32,
+ "imagewidth":64,
+ "margin":0,
+ "name":"Adam",
+ "spacing":0,
+ "tilecount":4,
+ "tiledversion":"1.10.2",
+ "tileheight":32,
+ "tilewidth":16,
+ "transparentcolor":"#ffffff",
+ "type":"tileset",
+ "version":"1.10"
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My game</title>
+    <style>
+        @font-face {
+            font-family: Dots;
+            src: url("fonts/bpdots-squares-2.ttf");
+        }
+
+        #playerScoreCanvasId {
+            position: absolute;
+            top: 7%;
+            left: 5%;
+            width: 300px;
+            height: 400px;
+        }
+
+        #rulesCanvasId {
+            position: absolute;
+            top: 7%;
+            left: 73%;
+            width: 380px;
+            height: 400px;
+        }
+
+        #canvasId {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #000;
+        }
+
+        #restartButton {
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background-color: #f32bc9;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: Dots, serif;
+            font-size: 18px;
+        }
+
+        #restartButton:hover {
+            background-color: #9c61f1;
+        }
+
+        #exitButton {
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background-color: #f32bc9;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: Dots, serif;
+            font-size: 18px;
+        }
+
+        #exitButton:hover {
+            background-color: #9c61f1;
+        }
+    </style>
+</head>
+<body bgcolor='#79aefd'>
+
+<canvas id="rulesCanvasId" width="380" height="400"></canvas>
+<canvas id="canvasId" width="640" height="640"></canvas>
+<canvas id="playerScoreCanvasId" width="300" height="400"></canvas>
+<button id="restartButton">Restart</button>
+<button id="exitButton">Exit</button>
+
+<script type="module" src="scripts/gameManager.js"></script>
+</body>
+</html>

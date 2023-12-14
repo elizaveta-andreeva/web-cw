@@ -1,0 +1,134 @@
+{
+  "frames": {
+    "Player": {
+      "frame": {
+        "x": 0,
+        "y": 405,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 577
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 577
+      }
+    },
+    "GoldCoin": {
+      "frame": {
+        "x": 0,
+        "y": 82,
+        "w": 32,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 159,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 159,
+        "h": 32
+      }
+    },
+    "SilverCoin": {
+      "frame": {
+        "x": 0,
+        "y": 372,
+        "w": 32,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 159,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 159,
+        "h": 32
+      }
+    },
+    "GreenCoin": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 127,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 127,
+        "h": 32
+      }
+    },
+    "Chest": {
+      "frame": {
+        "x": 0,
+        "y": 33,
+        "w": 48,
+        "h": 48
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 48
+      },
+      "sourceSize": {
+        "w": 144,
+        "h": 48
+      }
+    },
+    "Bee": {
+      "frame": {
+        "x": 0,
+        "y": 115,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      },
+      "sourceSize": {
+        "w": 256,
+        "h": 256
+      }
+    }
+  },
+  "meta": {
+    "app": "https://www.leshylabs.com/apps/sstool/",
+    "version": "Leshy SpriteSheet Tool v0.8.4",
+    "image": "spritesheet.png",
+    "size": {
+      "w": 256,
+      "h": 982
+    },
+    "scale": 1
+  }
+}

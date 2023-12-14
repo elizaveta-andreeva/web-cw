@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My page</title>
+    <style>
+        p {
+            font-family: Dots, serif;
+        }
+
+        @font-face {
+            font-family: Dots;
+            src: url("fonts/bpdots-squares-2.ttf");
+        }
+
+        .welcome {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top:25%;
+        }
+
+        .login input[type="text"] {
+            display: block;
+            padding: 8px;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            font-family: Dots, serif;
+            font-size: 16px;
+            width: 200px;
+            margin: 0 auto 10px;
+        }
+
+        .login select {
+            display: block;
+            padding: 8px;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            font-family: Dots, serif;
+            font-size: 16px;
+            width: 200px;
+            margin: 0 auto 20px;
+        }
+
+        #enterButton {
+            display: block;
+            margin: 0 auto;
+            padding: 10px 20px;
+            background-color: #f32bc9;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: Dots, serif;
+            font-size: 18px;
+        }
+
+        #enterButton:hover {
+            background-color: #9c61f1;
+        }
+
+    </style>
+</head>
+<body bgcolor='#79aefd'>
+<h1><p align="center">Hello!</p></h1>
+<h1><p align="center">Enter username:</p></h1>
+<div class="welcome">
+    <form action="main.html" method="get">
+        <label class="login">
+            <input type="text" id="usernameInput" placeholder="username" ><br>
+            <select id="levelInput">
+                <option value="1">level 1</option>
+                <option value="2">level 2</option>
+            </select>
+        </label>
+        <input type="submit" id="enterButton" value="Enter"
+               onclick="store(document.getElementById('usernameInput'), document.getElementById('levelInput'))">
+    </form>
+</div>
+
+<script>
+    function store(source1, source2) {
+        const username = source1.value;
+        const level = source2.value;
+        localStorage.setItem("mygame.username", username);
+        localStorage.setItem("mygame.level", level);
+    }
+</script>
+</body>
+</html>
